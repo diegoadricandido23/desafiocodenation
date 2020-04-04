@@ -40,8 +40,8 @@
 
     A rotina se excuta nas seguintes etapas:
 
-        1 - Envia-se um get para a Api
-        2 - Converte-se o Json recebido no objeto 'Answer'
-        3 - Decodifica a mensagem
-        4 - Salva o arquivo 'answer.json'
-        5 - Envia-se um post para Api com o arquivo 'answer.json' no formato 'multipart/form-data'
+        * 1 - Envia-se um get para a Api
+        * 2 - Converte-se o Json recebido no objeto 'Answer'
+        * 3 - Decodifica a mensagem
+        * 4 - Salva o arquivo 'answer.json'
+        * 5 - Envia-se um post para Api com o arquivo 'answer.json' no formato 'multipart/form-data'
