@@ -101,11 +101,12 @@ public class DecifraDados {
 
 	}
 	
-	public static void obterDados(Answer answer, String response) {
+	public static Answer obterDados(Answer answer, String response) {
 		LOGGER.info("INICIANDO - OBTER DADOS");
 		Gson gson = new Gson();
 		answer = gson.fromJson(response, Answer.class);
 		LOGGER.info("Answer : %s\n", answer.toString());
 		LOGGER.info("FINALIZANDO - OBTER DADOS");
+		return answer;
 	}
 }

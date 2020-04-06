@@ -37,7 +37,7 @@ public class Orquestrador {
 		LOGGER.info("================================================");
 		
 		LOGGER.info("INICIADO PROCESSO - OBTENÇÃO OBJETO");
-		DecifraDados.obterDados(answer, mensagemRecebida);
+		answer = DecifraDados.obterDados(answer, mensagemRecebida);
 		LOGGER.info("FINALIZANDOO PROCESSO - OBTENÇÃO OBJETO");
 		
 		LOGGER.info("================================================");
